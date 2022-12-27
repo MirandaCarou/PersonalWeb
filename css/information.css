@@ -1,0 +1,145 @@
+body{
+    display: grid;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../icons_media/Hero.jpg");
+    grid-template-columns: 2fr 8fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr 3fr 1fr 3fr 1fr;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    grid-column: 2;
+    grid-row :1;
+    position: relative;
+    color:  black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.block{
+    margin: 20px;
+    padding: 20px;
+}
+.EduInformation{
+    grid-column: 2;
+    grid-row :2;
+    position: relative;
+    color:  #3c31dd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: black;
+}
+.partTittle1{
+    grid-column: 2;
+    grid-row :3;
+    position: relative;
+    color: rgb(221, 62, 62);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.CertificatesInformation{
+    background-color: black;
+    grid-column: 2;
+    grid-row :4;
+    position: relative;
+    color:  #3c31dd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+}
+.partTittle2{
+    grid-column: 2;
+    grid-row :5;
+    position: relative;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.CoursesInformation{
+    background-color: black;
+    grid-column: 2;
+    grid-row :6;
+    position: relative;
+    display: flex;
+    color:  #3c31dd;
+    flex-direction: column;
+    justify-content: center;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+}
+.titleSection{
+    display: flex;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 400px;
+    
+}
+.section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photoDiv{
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    clip-path: circle();
+    margin-right: 45px;
+    margin-left: 45px;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.answer{
+    font-weight: bold;
+    color: whitesmoke;
+}
+.Institution1{
+    
+    color: rgb(58, 234, 250);
+    font-weight: bold;
+}
+.Institution2{
+    color: rgb(242, 184, 78);
+    font-weight: bold;
+}
+.Institution3{
+    color: rgb(221, 62, 62);
+    font-weight: bold;
+}
