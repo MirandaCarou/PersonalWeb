@@ -17,12 +17,13 @@ header{
     grid-column: 2;
     grid-row :1;
     position: relative;
-    color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
     font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: 1px whitesmoke;
 }
 .block{
     margin: 20px;
@@ -46,7 +47,8 @@ header{
     grid-column: 2;
     grid-row :3;
     position: relative;
-    color:whitesmoke;
+    color: transparent;
+    -webkit-text-stroke: 1px whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +74,8 @@ header{
     grid-column: 2;
     grid-row :5;
     position: relative;
-    color: whitesmoke;
+    color: transparent;
+    -webkit-text-stroke: 1px whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
