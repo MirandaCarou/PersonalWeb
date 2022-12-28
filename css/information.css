@@ -3,7 +3,7 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100vw;
     height: 100vh;
-    background-image: url("../icons_media/Hero.jpg");
+    background-image: url("../icons_media/Fondo-de-Pantalla-3840x2160-ESPACIO-PROFUNDO-OSCURO-4K.-Fondo-de-Pantalla-4k-Gratis-scaled.jpg");
     grid-template-columns: 2fr 8fr 2fr;
     grid-template-rows: 1fr 5fr 1fr 3fr 1fr 3fr 1fr;
     overflow-x: hidden;
@@ -17,7 +17,7 @@ header{
     grid-column: 2;
     grid-row :1;
     position: relative;
-    color:  black;
+    color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,7 +46,7 @@ header{
     grid-column: 2;
     grid-row :3;
     position: relative;
-    color: rgb(221, 62, 62);
+    color:whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +72,7 @@ header{
     grid-column: 2;
     grid-row :5;
     position: relative;
-    color: black;
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,4 +142,7 @@ img{
 .Institution3{
     color: rgb(221, 62, 62);
     font-weight: bold;
+}
+.InfoAbout{
+    color: rgb(43, 255, 100);
 }
